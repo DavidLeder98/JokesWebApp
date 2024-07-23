@@ -115,7 +115,7 @@ namespace JokesWebApp.Controllers
             }
             return View(joke);
         }
-
+        
         // GET: Jokes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
